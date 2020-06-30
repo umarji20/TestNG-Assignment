@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+    <line>
+      <![CDATA[inverse of  num is 0.5]]>
+    </line>
+    <line>
+      <![CDATA[negation of num is -4]]>
+    </line>
+    <line>
+      <![CDATA[exponetial of two num is 125.0]]>
+    </line>
+    <line>
+      <![CDATA[division of two num is 5]]>
+    </line>
+    <line>
+      <![CDATA[multiplication of two num is 15]]>
+    </line>
+    <line>
+      <![CDATA[substration of two num is 2]]>
+    </line>
+    <line>
+      <![CDATA[modulation of two num is 2]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="114" started-at="2020-06-30T19:40:47Z" finished-at="2020-06-30T19:40:47Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="114" started-at="2020-06-30T19:40:47Z" finished-at="2020-06-30T19:40:47Z">
+      <class name="com.jyoti.Problem5">
+        <test-method status="PASS" signature="teseCaseForInverse()[pri:0, instance:com.jyoti.Problem5@1a052a00]" name="teseCaseForInverse" duration-ms="15" started-at="2020-06-30T19:40:47Z" finished-at="2020-06-30T19:40:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[inverse of  num is 0.5]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- teseCaseForInverse -->
+        <test-method status="PASS" signature="teseCaseForNegate()[pri:0, instance:com.jyoti.Problem5@1a052a00]" name="teseCaseForNegate" duration-ms="3" started-at="2020-06-30T19:40:47Z" finished-at="2020-06-30T19:40:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[negation of num is -4]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- teseCaseForNegate -->
+        <test-method status="PASS" signature="testCaseExp()[pri:0, instance:com.jyoti.Problem5@1a052a00]" name="testCaseExp" duration-ms="2" started-at="2020-06-30T19:40:47Z" finished-at="2020-06-30T19:40:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[exponetial of two num is 125.0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCaseExp -->
+        <test-method status="PASS" signature="testCaseForAddition()[pri:0, instance:com.jyoti.Problem5@1a052a00]" name="testCaseForAddition" duration-ms="6" started-at="2020-06-30T19:40:47Z" finished-at="2020-06-30T19:40:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseForAddition -->
+        <test-method status="PASS" signature="testCaseForDivision()[pri:0, instance:com.jyoti.Problem5@1a052a00]" name="testCaseForDivision" duration-ms="1" started-at="2020-06-30T19:40:47Z" finished-at="2020-06-30T19:40:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[division of two num is 5]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCaseForDivision -->
+        <test-method status="PASS" signature="testCaseForMultiplication()[pri:0, instance:com.jyoti.Problem5@1a052a00]" name="testCaseForMultiplication" duration-ms="2" started-at="2020-06-30T19:40:47Z" finished-at="2020-06-30T19:40:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[multiplication of two num is 15]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCaseForMultiplication -->
+        <test-method status="PASS" signature="testCaseForSubstraction()[pri:0, instance:com.jyoti.Problem5@1a052a00]" name="testCaseForSubstraction" duration-ms="2" started-at="2020-06-30T19:40:47Z" finished-at="2020-06-30T19:40:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[substration of two num is 2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCaseForSubstraction -->
+        <test-method status="PASS" signature="testCaseModulation()[pri:0, instance:com.jyoti.Problem5@1a052a00]" name="testCaseModulation" duration-ms="2" started-at="2020-06-30T19:40:47Z" finished-at="2020-06-30T19:40:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[modulation of two num is 2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCaseModulation -->
+      </class> <!-- com.jyoti.Problem5 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

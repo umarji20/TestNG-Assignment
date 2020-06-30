@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+
+	<test name="Test1">
+		<classes>
+			<class name="com.jyoti.Problem1" />
+		</classes>
+	</test> 
+
+	<test name="Test2">
+		<classes>
+			<class name="com.jyoti.Problem2" />
+		</classes>
+	</test>
+
+	<test name="Test3">
+		<parameter name="a" value="5" />
+		<parameter name="b" value="3" />
+
+		<classes>
+			<class name="com.jyoti.Problem3" />
+		</classes>
+	</test> 
+	
+	<test name="Test4" parallel="classes" thread-count="2">
+	    <classes>
+		      <class name="com.jyoti.Program4ParrallelEx1"/>
+		      <class name="com.jyoti.Program4ParrallelEx2"/>
+	    </classes>
+    </test>
+	
+	<test name="Test5" >
+		<classes>
+			<class name="com.jyoti.Problem5" />
+		</classes>
+	</test>
+	
+	<test name="Test6" >
+		 <groups>
+         <run>
+            <include name = "group1" />
+             <exclude name = "group2" />
+         </run>
+      </groups>
+      
+		<classes>
+			<class name="com.jyoti.Program6" />
+		</classes>
+	</test>
+	
+	
+	
+
+
+</suite> <!-- Suite -->
